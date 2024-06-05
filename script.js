@@ -25,3 +25,4 @@ document.getElementById('bookingForm').addEventListener('submit', function(event
         console.error('Error:', error);
         alert('Es gab einen Fehler bei der Buchungsanfrage. Bitte versuchen Sie es später erneut.');
     });
+});
