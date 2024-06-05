@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #b22222; /* Dunkles Rot für eine rockige Atmosphäre */
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -28,6 +28,7 @@ header {
     border-radius: 10px;
     width: 80%;
     text-align: center;
+    font-family: 'Rock Salt', cursive; /* Rustikale Schriftart */
 }
 
 nav ul {
@@ -58,9 +59,10 @@ section {
 }
 
 section h2 {
-    color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
+    color: #b22222;
+    border-bottom: 2px solid #b22222;
     padding-bottom: 0.5em;
+    font-family: 'Rock Salt', cursive; /* Rustikale Schriftart */
 }
 
 section img {
@@ -132,12 +134,12 @@ form input, form button {
 }
 
 form button {
-    background-color: #4CAF50;
+    background-color: #b22222;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #a11a1a;
 }
