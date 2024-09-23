@@ -12,7 +12,21 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e0e0e0; /* Heller Hintergrund für besseren Kontrast */
+            background-color: #e0e0e0;
+        }
+
+        /* Navigation Styles */
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+            padding: 15px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #0056b3;
         }
 
         /* Header Styles */
@@ -25,14 +39,14 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: #fff; /* Weißer Text für besseren Kontrast */
-            background-color: rgba(0, 0, 0, 0.7); /* Transparenter dunkler Overlay für bessere Lesbarkeit */
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.7);
             position: relative;
         }
 
         .header h1 {
             font-size: 4rem;
-            background-color: rgba(0, 0, 0, 0.5); /* Halbtransparenter Hintergrund */
+            background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
             border-radius: 10px;
             animation: fadeInDown 2s;
@@ -54,14 +68,14 @@
         .service-section {
             padding: 50px;
             text-align: center;
-            background-color: #fff; /* Heller Hintergrund */
-            color: #333; /* Dunkler Text */
+            background-color: #fff;
+            color: #333;
         }
 
         .service-box {
             margin-bottom: 20px;
             padding: 20px;
-            background-color: #007bff; /* Blau für besseren Kontrast */
+            background-color: #007bff;
             color: white;
             border-radius: 10px;
             transition: transform 0.3s, background-color 0.3s;
@@ -69,13 +83,13 @@
 
         .service-box:hover {
             transform: scale(1.05);
-            background-color: #0056b3; /* Dunkleres Blau beim Hover */
+            background-color: #0056b3;
         }
 
         /* Footer Section */
         .footer {
-            background-color: #333; /* Dunkler Hintergrund */
-            color: #fff; /* Weißer Text */
+            background-color: #333;
+            color: #fff;
             padding: 10px;
             text-align: center;
         }
@@ -89,6 +103,38 @@
     </style>
 </head>
 <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cranio-Sacral Praxis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Startseite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Leistungen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ablauf der Behandlung</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Preise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Header Section -->
     <div class="header">
