@@ -12,7 +12,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e0e0e0; /* Heller Hintergrund für besseren Kontrast */
         }
 
         /* Header Styles */
@@ -25,11 +25,16 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: white;
+            color: #fff; /* Weißer Text für besseren Kontrast */
+            background-color: rgba(0, 0, 0, 0.7); /* Transparenter dunkler Overlay für bessere Lesbarkeit */
+            position: relative;
         }
 
         .header h1 {
             font-size: 4rem;
+            background-color: rgba(0, 0, 0, 0.5); /* Halbtransparenter Hintergrund */
+            padding: 20px;
+            border-radius: 10px;
             animation: fadeInDown 2s;
         }
 
@@ -45,33 +50,41 @@
             }
         }
 
+        /* Service Section */
+        .service-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #fff; /* Heller Hintergrund */
+            color: #333; /* Dunkler Text */
+        }
+
+        .service-box {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #007bff; /* Blau für besseren Kontrast */
+            color: white;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .service-box:hover {
+            transform: scale(1.05);
+            background-color: #0056b3; /* Dunkleres Blau beim Hover */
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #333; /* Dunkler Hintergrund */
+            color: #fff; /* Weißer Text */
+            padding: 10px;
+            text-align: center;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2rem;
             }
-        }
-
-        .service-section {
-            padding: 50px;
-            text-align: center;
-            background-color: #fff;
-        }
-
-        .service-box {
-            margin-bottom: 20px;
-            transition: transform 0.3s;
-        }
-
-        .service-box:hover {
-            transform: scale(1.05);
-        }
-
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
         }
     </style>
 </head>
