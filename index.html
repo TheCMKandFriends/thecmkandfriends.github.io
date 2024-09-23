@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cranio-Sacral Praxis</title>
-    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -13,17 +13,10 @@
     <nav class="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">Cranio-Sacral Praxis</a>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Startseite</a></li>
-                <li><a href="#about" class="nav-link">Über uns</a></li>
+                <li><a href="#about" class="nav-link">Über mich</a></li>
                 <li><a href="#services" class="nav-link">Leistungen</a></li>
-                <li><a href="#process" class="nav-link">Ablauf der Behandlung</a></li>
-                <li><a href="#pricing" class="nav-link">Preise</a></li>
                 <li><a href="#contact" class="nav-link">Kontakt</a></li>
             </ul>
         </div>
@@ -31,37 +24,55 @@
 
     <!-- Header Section -->
     <section id="home" class="header">
-        <h1>Willkommen bei der Cranio-Sacral Praxis</h1>
+        <div class="header-content">
+            <h1>Willkommen bei der Cranio-Sacral Praxis</h1>
+            <p>Finden Sie Balance und Ruhe in unserer ganzheitlichen Praxis.</p>
+        </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="section">
-        <h2>Über uns</h2>
-        <p>Erfahren Sie mehr über unsere Philosophien und unser Team.</p>
+        <div class="container">
+            <h2>Über mich</h2>
+            <p>Ich bin [Therapeut/in], spezialisiert auf Cranio-Sacral Therapie mit langjähriger Erfahrung im Bereich der ganzheitlichen Heilmethoden. Meine Praxis bietet einen Raum der Ruhe und Erholung für Körper und Geist.</p>
+        </div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="section">
-        <h2>Unsere Leistungen</h2>
-        <p>Wir bieten eine Vielzahl von ganzheitlichen Therapien an.</p>
-    </section>
-
-    <!-- Process Section -->
-    <section id="process" class="section">
-        <h2>Ablauf der Behandlung</h2>
-        <p>Erfahren Sie, wie eine Sitzung abläuft.</p>
-    </section>
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="section">
-        <h2>Preise</h2>
-        <p>Hier finden Sie eine Übersicht über unsere Preise.</p>
+        <div class="container">
+            <h2>Leistungen</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Cranio-Sacral Therapie</h3>
+                    <p>Eine sanfte manuelle Technik, die den Körper unterstützt, sich selbst zu heilen.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Massage Therapie</h3>
+                    <p>Gezielte Massagetechniken, um Verspannungen zu lösen und das Wohlbefinden zu steigern.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Energetische Heilung</h3>
+                    <p>Eine energetische Harmonisierung zur Wiederherstellung des inneren Gleichgewichts.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section">
-        <h2>Kontakt</h2>
-        <p>Kontaktieren Sie uns für mehr Informationen oder um einen Termin zu vereinbaren.</p>
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Adresse: [Praxis Adresse]</p>
+            <p>Telefon: [Telefonnummer]</p>
+            <p>Email: [E-Mail Adresse]</p>
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Ihr Name" required>
+                <input type="email" placeholder="Ihre E-Mail" required>
+                <textarea placeholder="Ihre Nachricht" required></textarea>
+                <button type="submit">Absenden</button>
+            </form>
+        </div>
     </section>
 
     <script src="script.js"></script>
