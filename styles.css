@@ -3,12 +3,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0e0e0;
+    background-color: #F0F8F5; /* Sehr helles Grün für den Hintergrund */
 }
 
 /* Navigation Styles */
 .navbar {
-    background-color: #007bff;
+    background-color: #4CAF50; /* Hauptfarbe Grün */
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
@@ -43,7 +43,7 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #0056b3;
+    background-color: #388E3C; /* Dunkleres Grün beim Hover */
     border-radius: 5px;
 }
 
@@ -102,7 +102,7 @@ body {
 
 .header h1 {
     font-size: 4rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(46, 125, 50, 0.8); /* Halbtransparentes Dunkelgrün */
     padding: 20px;
     border-radius: 10px;
 }
@@ -116,9 +116,19 @@ body {
 .section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #2E7D32; /* Gedämpftes Dunkelgrün für Überschriften */
 }
 
 .section p {
     font-size: 1.2rem;
     margin-bottom: 40px;
+    color: #2E7D32; /* Dunkelgrün für den Text */
+}
+
+/* Footer Section */
+.footer {
+    background-color: #4CAF50; /* Grüner Hintergrund */
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
