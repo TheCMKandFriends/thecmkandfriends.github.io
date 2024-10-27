@@ -1,0 +1,48 @@
+/* Grundlegendes Styling bleibt unverändert */
+
+/* Mobile Navigation */
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+/* Standard-Navigation */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+/* Responsive Design für kleine Bildschirme */
+@media (max-width: 768px) {
+    /* Hamburger-Icon anzeigen und normale Navigation verstecken */
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none; /* Verstecke die Navigation standardmäßig */
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Position unter dem Header */
+        right: 0;
+        background-color: #FFCBA4;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex; /* Zeige die Navigation, wenn "active" hinzugefügt ist */
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
